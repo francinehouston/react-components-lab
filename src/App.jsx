@@ -1,5 +1,6 @@
 // src/App.jsx
 import React from "react";
+import './App.css'
 import WeatherForecast from "./components/WeatherForecast/WeatherForecast.jsx";
 
 
