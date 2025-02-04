@@ -8,8 +8,9 @@ const WeatherForecast = ({day,icon,alt, conditions, time}) => {
 return (
 
 <div className="weather">
+<WeatherIcon icon={icon} alt={alt}/>
   <WeatherData day={day} conditions={conditions} time={time}/>
-  <WeatherIcon icon={icon} alt={alt}/>
+ 
 </div>
 );
 };
